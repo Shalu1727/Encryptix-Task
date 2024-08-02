@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Shalu Kumawat</title>
+    <link rel="stylesheet" href="css/styles.css?0.1">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<div class="top-container">
+    <img class="top-cloud" src="images/Cloud.png" alt="Cloud.png">
+    <h1>I'm Shalu Kumawat.</h1>
+    <h2>A Student.</h2>
+    <img class="bottom-cloud" src="images/Cloud.png" alt="Cloud.png">
+    <img src="images/Mountain.png" alt="Mountain.png">
+
+</div>
+    
+
+<div class="middle-container">
+    <div class="profile">
+      <img class="personal" src="images/Shalu.png" alt="Shalu.png">
+      <h2>Hello.</h2>
+      <p class="intro">I am a pursing B.tech degree.<br> I ❤ sketching. I ❤ travelling.</p><br/>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="sketch" src="images/Police.png" alt="Police.png">
+        <h3>Sketching</h3>
+        <p>I am recently drawing a picture of cartoons.</p>
+      </div>
+      <div class="skill-row">
+        <img class="badminton" src="images/Badminton.png" alt="Badminton.png">
+        <h3>Playing Badminton</h3>
+        <p>I like to play badminton but here is no one with whom I can play.</p>
+      </div>
+      <div class="resume">
+        <h2>My Resume</h2>
+        <a href="Pdf/My_resume.pdf" class="resumelink">Resume Link</a>
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love sketching as much as I do......</h3>
+      <p class="contact-msg">If you love then we can share some ideas and techniques use by us.</p>
+      <a class="btn" href="mailto:kumawatshalu77424@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/shalu-kumawat-48aa03257">LinkedIn</a>
+    <a class="footer-link" href="https://instagram.com/shalu_x_17">Instagram</a>
+    <p class="copyright">© 2023 Shalu Kumawat.</p>
+  </div>
+      
+</body>
+</html>
+
+
+
+
+
+
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+h1{
+    color: #66BFBF;
+    font-size: 562.5%;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+   color: #66BFBF;
+   font-weight: normal;
+   font-size: 2.5rem;
+   font-family: arial;
+   padding-bottom: 10px;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+    color: #11999E;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+.resumelink{
+    color: black;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.resumelink:hover{
+    color: #11999E;
+}
+
+.personal{
+    border-radius: 100%;
+}
+
+.badminton{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+    border-radius: 100%;
+}
+
+.sketch{
+    width: 25%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+}
+
+.skill-row{
+    width: 30%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contact-msg{
+    width: 30%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #EAf6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.btn{
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+
+
+
+
+
