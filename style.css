@@ -1,0 +1,72 @@
+body, h1, h2, p, ul ,li{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+header{
+    background-color: lightsalmon;
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-left: 30px;
+}
+
+.sec::before{
+    content: " ";
+    position: absolute;
+    top: 21%;
+    left: 0;
+    bottom: 25%;
+    height: 64%;
+    width: 100%;
+    background-image: url(../image/internship_bg.png);
+    background-size: cover;
+    opacity: 50%;
+}
+
+section{
+    text-align: center;
+    padding: 150px 0;
+}
+
+.sec h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.sec p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.sec button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #555555;
+    color: white;
+}
+
+footer{
+    background-color: aquamarine;
+    text-align: center;
+    padding: 10px 0;
+}
